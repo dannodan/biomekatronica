@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Quantico);
+
+body {
+  font-family: Quantico;
+}
+
+.header {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #80ccff 0%, #4db8ff 10%, #4db8ff 90%, #80ccff 100%);
+  z-index: 10000;
+}
+
+.navbar {
+  display: inline-block;
+  float: right;
+  padding: 40px 0;
+}
+
+.navbar a {
+  margin: 0 10px;
+  color: #333;
+}
+
+.navbar a:hover {
+  color: #000;
+}
+
+.content {
+  margin-top: 100px;
+  height: calc(100% - 10px);
+}
+
+section:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -100px; 
+  height: 100px; 
+  visibility: hidden; 
+}

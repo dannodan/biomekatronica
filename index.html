@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Biomekatronica</title>
+
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- Stylesheets -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class='header'>
+      <div class="container">
+        <div style="float: left; font-size: 36px; padding: 22px 0px;">
+          Biomekatronica
+        </div>
+        <div class="navbar">
+          <a href="#mision-vision">
+            Misión y Visión
+          </a>
+          <a href="#quienes-somos">
+            Quiénes Somos
+          </a>
+          <a href="#proyectos">
+            Proyectos
+          </a>
+          <a href="#contacto">
+            Contacto
+          </a>
+        </div>
+      </div>
+    </header>
+    <div class="content">
+      <section id="mision-vision">
+        <div class="container">
+          <div class="col-md-7">
+            <h2 style="text-align: center;">
+              Misión
+            </h2>
+            <p style="text-align: justify;">
+              Nacimos con el objetivo de desarrollar productos y servicios orto-protésicos y dispositivos médicos en general para que,
+              en constante aprendizaje junto con profesionales de la salud, podamos mejorar la calidad de vida de los pacientes,
+              disminuir el tiempo de rehabilitación, y así, facilitarles el regreso a sus actividades cotidianas. 
+            </p>
+          </div>
+          <img class="col-md-5" style="margin: 20px 0px 10px" src="http://placehold.it/450x120">
+        </div>
+
+        <div class="container">
+          <img class="col-md-5" style="margin: 20px 0px 10px" src="http://placehold.it/450x120">
+          <div class="col-md-7">
+            <h2 style="text-align: center;">
+              Visión
+            </h2>
+            <p style="text-align: justify;">
+              Ser el principal proveedor de servicios de tecnología médica en Venezuela,
+              ofreciendo productos originales del más alto nivel de calidad y desempeño,
+              adaptados al paciente para satisfacer las necesidades específicas del mercado de América Latina.
+            </p>
+          </div>
+        </div>
+        
+        <div class="container">
+          <div>
+            <h2 style="text-align: center;">
+              Valores
+            </h2>
+            <div class="col-md-12" style="font-size: 20px; margin: 0 0 20px">
+              <div class="col-md-4" style="text-align: center;">
+                <span class="fa fa-check" style="color: #4db8ff"></span> Servicio
+              </div>
+              <div class="col-md-4" style="text-align: center;">
+                <span class="fa fa-check" style="color: #4db8ff"></span> Responsabilidad
+              </div>
+              <div class="col-md-4" style="text-align: center;">
+                <span class="fa fa-check" style="color: #4db8ff"></span> Excelencia
+              </div>
+            </div>
+            <p style="text-align: justify;">
+              Creemos en las capacidades de nuestro recurso humano,
+              el potencial de desarrollo de la industria en nuestro país y
+              en el trabajo en equipo con otras organizaciones y empresas a todo nivel,
+              para afrontar y resolver los retos que nos plantea nuestra realidad.
+            </p>
+            <p style="text-align: justify;">
+              Valoramos la cercanía con nuestros clientes y conocer a fondo sus necesidades.
+              Sentimos también una gran responsabilidad con ellos, lo que nos compromete en la
+              búsqueda por mejorar los estándares de calidad y desempeño en cada uno de nuestros
+              productos y servicios.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div style="height:1000px"/>
+      <section id="quienes-somos">
+        
+      </section>
+      <section id="proyectos">
+        
+      </section>
+      <section id="contacto">
+        <div id="authorize-div">
+          <form class="">
+            
+          </form>
+          <span>Authorize access to Gmail API</span>
+          <!--Button for the user to click to initiate auth sequence -->
+          <button id="authorize-button" onclick="sendmail()">
+            Authorize
+          </button>
+          <pre id="output"></pre>
+        </div>
+      </section>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Scripts from the js Folder -->
+    <script src="js/gmailAuth.js"></script>
+    <!-- Scripts taken from CDNs -->
+    <script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
+  </body>
+</html>
