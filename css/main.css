@@ -31,6 +31,7 @@ body {
 
 .content {
   margin-top: 100px;
+  margin-bottom: 100px;
   height: calc(100% - 10px);
 }
 
@@ -40,4 +41,23 @@ section:before {
   margin-top: -100px; 
   height: 100px; 
   visibility: hidden; 
+}
+
+section {
+  padding: 0 0 50px 0px;
+}
+
+.marco-foto {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 200px;
+  display: inline-block;
+  background-image: url("http://placehold.it/200x200");
+  margin: 0 50px;
+}
+
+.footer {
+  padding: 30px 0 60px 0;
+  background: linear-gradient(to right, #80ccff 0%, #4db8ff 10%, #4db8ff 90%, #80ccff 100%);
 }

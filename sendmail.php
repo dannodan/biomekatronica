@@ -29,6 +29,11 @@
 
   // More headers
   $headers .= 'From: <webmaster@example.com>' . "\r\n";
-
+ 
+  echo "<script>console.log( 'kekerino' );</script>";
+ 
   mail($to,$subject,$message,$headers);
+
+  echo "<script>console.log( 'yayrino' );</script>";
+
 ?> 
