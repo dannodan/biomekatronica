@@ -1,7 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Quantico);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+@font-face {
+  font-family: 'Manifesto';
+  src: url('fonts/MANIFESTO.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Stellar';
+  src: url('fonts/Stellar-Regular.otf') format('opentype');
+}
 
 body {
-  font-family: Quantico;
+  font-family: Stellar, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .header {
@@ -31,7 +44,7 @@ body {
 
 .content {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   height: calc(100% - 10px);
 }
 
@@ -43,8 +56,12 @@ section:before {
   visibility: hidden; 
 }
 
-section {
-  padding: 0 0 50px 0px;
+.inner-section {
+  padding: 30px 0;
+}
+
+.inner-section:nth-child(2n){
+  background-color: #eaeaea;
 }
 
 .marco-foto {
@@ -57,7 +74,88 @@ section {
   margin: 0 50px;
 }
 
+.aliados {
+  margin: 20px 0;
+}
+
 .footer {
-  padding: 30px 0 60px 0;
+  padding: 30px 0;
   background: linear-gradient(to right, #80ccff 0%, #4db8ff 10%, #4db8ff 90%, #80ccff 100%);
+}
+
+.ortesis-image {
+  background: url("../images/Ortesis.png") no-repeat center center;
+  background-size: cover;
+  height: 200px;
+}
+
+.protesis-image {
+  background: url("../images/Protesis.jpg") no-repeat center center;
+  background-size: contain;
+  height: 200px;
+}
+
+.implantes-image {
+  background: url("../images/Implante.jpg") no-repeat center center;
+  background-size: contain;
+  height: 200px;
+}
+
+.cuencas-image {
+  background: url("../images/Socket.jpg") no-repeat center center;
+  background-size: contain;
+  height: 200px;
+}
+
+.viviana {
+  background: url("../images/Viviana.jpg") no-repeat center center;
+  background-size: contain;
+}
+
+.samuel {
+  background: url("../images/Samuel.jpg") no-repeat center center;
+  background-size: contain;
+}
+
+.arturo {
+  background: url("../images/Arturo.jpg") no-repeat center center;
+  background-size: contain;
+}
+
+.randall {
+  background: url("../images/Randall.jpg") no-repeat center center;
+  background-size: contain;
+}
+
+.mision-image {
+  background: url("../images/Mision.jpg") no-repeat center center;
+  background-size: contain;
+  height: 200px;
+}
+
+.vision-image {
+  background: url("../images/Vision.jpg") no-repeat center center;
+  background-size: contain;
+  height: 200px;
+}
+
+.usb {
+  background: url("../images/USB.jpg") no-repeat center center;
+  background-size: contain;
+  height: 70px;
+}
+.pts {
+  background: url("../images/PTS.jpg") no-repeat center center;
+  background-size: contain;
+  height: 70px;
+}
+.biomecanica {
+  background: url("../images/BiomecanicaUSB.jpg") no-repeat center center;
+  background-size: contain;
+  height: 70px;
+}
+.biotecpro {
+  background: url("../images/Biotecpro.jpg") no-repeat center center;
+  background-size: contain;
+  height: 70px;
 }
