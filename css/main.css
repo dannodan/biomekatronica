@@ -74,6 +74,16 @@ section:before {
   margin: 0 50px;
 }
 
+.marco-logo {
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 50px;
+  display: inline-block;
+  background: url("../images/Mano Fondo Blanco.jpg") no-repeat center center;
+  background-size: contain;
+}
+
 .aliados {
   margin: 20px 0;
 }
@@ -124,6 +134,11 @@ section:before {
 
 .randall {
   background: url("../images/Randall.jpg") no-repeat center center;
+  background-size: contain;
+}
+
+.torrealba {
+  background: url("../images/Torrealba.jpg") no-repeat center center;
   background-size: contain;
 }
 

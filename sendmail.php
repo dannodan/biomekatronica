@@ -1,5 +1,5 @@
 <?php
-  $to = "dannodan89@gmail.com";
+  $to = "biomekatronica.ve@gmail.com";
   $subject = "HTML email";
 
   $message = "
