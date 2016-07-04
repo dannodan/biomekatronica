@@ -71,17 +71,14 @@ section:before {
   border-radius: 200px;
   display: inline-block;
   background-image: url("http://placehold.it/200x200");
-  margin: 0 50px;
 }
 
 .marco-logo {
-  height: 80px;
-  width: 80px;
-  border: 1px solid black;
-  border-radius: 50px;
+  height: 90px;
+  width: 300px;
   display: inline-block;
-  background: url("../images/Mano Fondo Blanco.jpg") no-repeat center center;
-  background-size: contain;
+  background: url("../images/Biomekatronica.png") no-repeat center center;
+  background-size: cover;
 }
 
 .aliados {
