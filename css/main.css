@@ -17,9 +17,13 @@ h1, h2, h3, h4 {
   font-family: 'Ubuntu Condensed', sans-serif;
 }
 
+h1 {
+  font-size: 42px;
+}
+
 .header {
   position: fixed;
-  height: 100px;
+  height: 120px;
   width: 100%;
   top: 0;
   left: 0;
@@ -30,7 +34,7 @@ h1, h2, h3, h4 {
 .navbar {
   display: inline-block;
   float: right;
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 .navbar a {
@@ -48,12 +52,12 @@ h1, h2, h3, h4 {
   height: calc(100% - 10px);
 }
 
-section:before { 
-  display: block; 
-  content: " "; 
-  margin-top: -100px; 
-  height: 100px; 
-  visibility: hidden; 
+section:before {
+  display: block;
+  content: " ";
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden;
 }
 
 .inner-section {
@@ -74,7 +78,7 @@ section:before {
 }
 
 .marco-logo {
-  height: 90px;
+  height: 100px;
   width: 300px;
   display: inline-block;
   background: url("../images/Biomekatronica.png") no-repeat center center;
@@ -119,8 +123,8 @@ section:before {
   background-size: contain;
 }
 
-.samuel {
-  background: url("../images/Samuel.jpg") no-repeat center center;
+.roman {
+  background: url("../images/Roman.jpg") no-repeat center center;
   background-size: contain;
 }
 
@@ -152,22 +156,30 @@ section:before {
 }
 
 .usb {
-  background: url("../images/USB.jpg") no-repeat center center;
+  background: url("../images/USB.png") no-repeat center center;
   background-size: contain;
+  cursor: pointer;
   height: 70px;
 }
 .pts {
   background: url("../images/PTS.jpg") no-repeat center center;
   background-size: contain;
+  cursor: pointer;
   height: 70px;
 }
 .biomecanica {
   background: url("../images/BiomecanicaUSB.jpg") no-repeat center center;
   background-size: contain;
+  cursor: pointer;
   height: 70px;
 }
 .biotecpro {
   background: url("../images/Biotecpro.jpg") no-repeat center center;
   background-size: contain;
   height: 70px;
+}
+.contactos {
+  background: url("../images/Correoimagen.png") no-repeat -10px center;
+  background-size: 250px;
+  height: 100px;
 }
